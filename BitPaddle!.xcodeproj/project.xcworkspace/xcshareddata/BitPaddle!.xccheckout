@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>084DEDFE-ABF1-4EF9-AB34-2720809902EF</string>
+	<key>IDESourceControlProjectName</key>
+	<string>BitPaddle!</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>DCAD052C-87D9-48A5-A1FF-655183FD52D5</key>
+		<string>https://github.com/studioOB/BitPaddle-.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>BitPaddle!.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>DCAD052C-87D9-48A5-A1FF-655183FD52D5</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/studioOB/BitPaddle-.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>DCAD052C-87D9-48A5-A1FF-655183FD52D5</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>DCAD052C-87D9-48A5-A1FF-655183FD52D5</string>
+			<key>IDESourceControlWCCName</key>
+			<string>BitPaddle!</string>
+		</dict>
+	</array>
+</dict>
+</plist>

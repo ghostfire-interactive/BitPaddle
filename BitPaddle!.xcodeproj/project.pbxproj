@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		012D33F7173D2226007C82B0 /* GameBall.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 012D33F6173D2226007C82B0 /* GameBall.cpp */; };
+		01846C90174964A300716228 /* SFMLSoundProvider.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 01846C8F174964A300716228 /* SFMLSoundProvider.cpp */; };
+		01846C93174967E700716228 /* ServiceLocator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 01846C91174967E700716228 /* ServiceLocator.cpp */; };
+		01846C9617496DC900716228 /* SoundFileCache.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 01846C9417496DC900716228 /* SoundFileCache.cpp */; };
+		01846C9917496EBB00716228 /* AIPaddle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 01846C9717496EBB00716228 /* AIPaddle.cpp */; };
+		01846C9D1749701A00716228 /* Soundtrack.ogg in Resources */ = {isa = PBXBuildFile; fileRef = 01846C9A1749701A00716228 /* Soundtrack.ogg */; };
+		01846C9E1749701A00716228 /* kaboom.wav in Resources */ = {isa = PBXBuildFile; fileRef = 01846C9B1749701A00716228 /* kaboom.wav */; };
+		01846C9F1749701A00716228 /* blip.wav in Resources */ = {isa = PBXBuildFile; fileRef = 01846C9C1749701A00716228 /* blip.wav */; };
+		01E23C1B173C70B3004BA83F /* ResourcePath.mm in Sources */ = {isa = PBXBuildFile; fileRef = 01E23C1A173C70B3004BA83F /* ResourcePath.mm */; };
+		01E23C40173C7120004BA83F /* VisibleGameObject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 01E23C2E173C7120004BA83F /* VisibleGameObject.cpp */; };
+		01E23C41173C7120004BA83F /* SplashScreen.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 01E23C30173C7120004BA83F /* SplashScreen.cpp */; };
+		01E23C42173C7120004BA83F /* PlayerPaddle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 01E23C32173C7120004BA83F /* PlayerPaddle.cpp */; };
+		01E23C43173C7120004BA83F /* MainMenu.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 01E23C34173C7120004BA83F /* MainMenu.cpp */; };
+		01E23C44173C7120004BA83F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 01E23C35173C7120004BA83F /* main.cpp */; };
+		01E23C45173C7120004BA83F /* BPicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 01E23C37173C7120004BA83F /* BPicon.png */; };
+		01E23C47173C7120004BA83F /* mainmenu.png in Resources */ = {isa = PBXBuildFile; fileRef = 01E23C39173C7120004BA83F /* mainmenu.png */; };
+		01E23C48173C7120004BA83F /* paddle.png in Resources */ = {isa = PBXBuildFile; fileRef = 01E23C3A173C7120004BA83F /* paddle.png */; };
+		01E23C49173C7120004BA83F /* splashscreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 01E23C3B173C7120004BA83F /* splashscreen.png */; };
+		01E23C4A173C7120004BA83F /* GameObjectManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 01E23C3D173C7120004BA83F /* GameObjectManager.cpp */; };
+		01E23C4B173C7120004BA83F /* Game.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 01E23C3F173C7120004BA83F /* Game.cpp */; };
+		01E23C50173C8B8C004BA83F /* ball.png in Resources */ = {isa = PBXBuildFile; fileRef = 01E23C4F173C8B8C004BA83F /* ball.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		012D33F5173D2226007C82B0 /* GameBall.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameBall.h; sourceTree = "<group>"; };
+		012D33F6173D2226007C82B0 /* GameBall.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GameBall.cpp; sourceTree = "<group>"; };
+		01846C8D1749614A00716228 /* IAudioProvider.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IAudioProvider.h; sourceTree = "<group>"; };
+		01846C8E1749630300716228 /* SFMLSoundProvider.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SFMLSoundProvider.h; sourceTree = "<group>"; };
+		01846C8F174964A300716228 /* SFMLSoundProvider.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SFMLSoundProvider.cpp; sourceTree = "<group>"; };
+		01846C91174967E700716228 /* ServiceLocator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ServiceLocator.cpp; sourceTree = "<group>"; };
+		01846C92174967E700716228 /* ServiceLocator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiceLocator.h; sourceTree = "<group>"; };
+		01846C9417496DC900716228 /* SoundFileCache.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SoundFileCache.cpp; sourceTree = "<group>"; };
+		01846C9517496DC900716228 /* SoundFileCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoundFileCache.h; sourceTree = "<group>"; };
+		01846C9717496EBB00716228 /* AIPaddle.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AIPaddle.cpp; sourceTree = "<group>"; };
+		01846C9817496EBB00716228 /* AIPaddle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AIPaddle.h; sourceTree = "<group>"; };
+		01846C9A1749701A00716228 /* Soundtrack.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; name = Soundtrack.ogg; path = "/Users/Anarchy/Library/Developer/Xcode/DerivedData/BitPaddle!-ejeslufbilzrwbbmfdafgxpfecar/Build/Products/Debug/../../../../../../../../Documents/Repository/BitPaddle!/BitPaddle!/Soundtrack.ogg"; sourceTree = "<absolute>"; };
+		01846C9B1749701A00716228 /* kaboom.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = kaboom.wav; path = "/Users/Anarchy/Documents/Repository/BitPaddle!/BitPaddle!/kaboom.wav"; sourceTree = "<absolute>"; };
+		01846C9C1749701A00716228 /* blip.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = blip.wav; sourceTree = "<group>"; };
+		01E23C15173C70B3004BA83F /* BitPaddle!.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BitPaddle!.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		01E23C19173C70B3004BA83F /* BitPaddle!-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BitPaddle!-Info.plist"; sourceTree = "<group>"; };
+		01E23C1A173C70B3004BA83F /* ResourcePath.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ResourcePath.mm; sourceTree = "<group>"; };
+		01E23C1C173C70B3004BA83F /* ResourcePath.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ResourcePath.hpp; sourceTree = "<group>"; };
+		01E23C2D173C7120004BA83F /* VisibleGameObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VisibleGameObject.h; sourceTree = "<group>"; };
+		01E23C2E173C7120004BA83F /* VisibleGameObject.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = VisibleGameObject.cpp; sourceTree = "<group>"; };
+		01E23C2F173C7120004BA83F /* SplashScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SplashScreen.h; sourceTree = "<group>"; };
+		01E23C30173C7120004BA83F /* SplashScreen.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SplashScreen.cpp; sourceTree = "<group>"; };
+		01E23C31173C7120004BA83F /* PlayerPaddle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerPaddle.h; sourceTree = "<group>"; };
+		01E23C32173C7120004BA83F /* PlayerPaddle.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = PlayerPaddle.cpp; path = "../../../../../../../../Documents/Repository/BitPaddle!/BitPaddle!/PlayerPaddle.cpp"; sourceTree = BUILT_PRODUCTS_DIR; };
+		01E23C33173C7120004BA83F /* MainMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainMenu.h; sourceTree = "<group>"; };
+		01E23C34173C7120004BA83F /* MainMenu.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MainMenu.cpp; sourceTree = "<group>"; };
+		01E23C35173C7120004BA83F /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		01E23C37173C7120004BA83F /* BPicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BPicon.png; sourceTree = "<group>"; };
+		01E23C39173C7120004BA83F /* mainmenu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mainmenu.png; path = "../../../../../../../../Documents/Repository/BitPaddle!/BitPaddle!/images/mainmenu.png"; sourceTree = BUILT_PRODUCTS_DIR; };
+		01E23C3A173C7120004BA83F /* paddle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = paddle.png; path = "/Users/Anarchy/Library/Developer/Xcode/DerivedData/BitPaddle!-ejeslufbilzrwbbmfdafgxpfecar/Build/Products/Debug/../../../../../../../../Documents/Repository/BitPaddle!/BitPaddle!/images/paddle.png"; sourceTree = "<absolute>"; };
+		01E23C3B173C7120004BA83F /* splashscreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = splashscreen.png; path = "../../../../../../../../Documents/Repository/BitPaddle!/BitPaddle!/images/splashscreen.png"; sourceTree = BUILT_PRODUCTS_DIR; };
+		01E23C3C173C7120004BA83F /* GameObjectManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameObjectManager.h; sourceTree = "<group>"; };
+		01E23C3D173C7120004BA83F /* GameObjectManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GameObjectManager.cpp; sourceTree = "<group>"; };
+		01E23C3E173C7120004BA83F /* Game.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Game.h; sourceTree = "<group>"; };
+		01E23C3F173C7120004BA83F /* Game.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Game.cpp; sourceTree = "<group>"; };
+		01E23C4F173C8B8C004BA83F /* ball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ball.png; path = "../../../../../../../../Documents/Repository/BitPaddle!/BitPaddle!/images/ball.png"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		01E23C11173C70B3004BA83F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01846CA01749703800716228 /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				01846C9C1749701A00716228 /* blip.wav */,
+				01846C9B1749701A00716228 /* kaboom.wav */,
+				01846C9A1749701A00716228 /* Soundtrack.ogg */,
+			);
+			name = Audio;
+			sourceTree = "<group>";
+		};
+		01E23C0B173C70B3004BA83F = {
+			isa = PBXGroup;
+			children = (
+				01E23C17173C70B3004BA83F /* BitPaddle! */,
+				01E23C16173C70B3004BA83F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		01E23C16173C70B3004BA83F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				01E23C15173C70B3004BA83F /* BitPaddle!.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		01E23C17173C70B3004BA83F /* BitPaddle! */ = {
+			isa = PBXGroup;
+			children = (
+				01846CA01749703800716228 /* Audio */,
+				01E23C36173C7120004BA83F /* images */,
+				01846C9717496EBB00716228 /* AIPaddle.cpp */,
+				01846C9817496EBB00716228 /* AIPaddle.h */,
+				01846C9517496DC900716228 /* SoundFileCache.h */,
+				01846C9417496DC900716228 /* SoundFileCache.cpp */,
+				01E23C3F173C7120004BA83F /* Game.cpp */,
+				012D33F6173D2226007C82B0 /* GameBall.cpp */,
+				01E23C3D173C7120004BA83F /* GameObjectManager.cpp */,
+				01E23C35173C7120004BA83F /* main.cpp */,
+				01E23C34173C7120004BA83F /* MainMenu.cpp */,
+				01E23C32173C7120004BA83F /* PlayerPaddle.cpp */,
+				01846C91174967E700716228 /* ServiceLocator.cpp */,
+				01846C8F174964A300716228 /* SFMLSoundProvider.cpp */,
+				01E23C30173C7120004BA83F /* SplashScreen.cpp */,
+				01E23C2E173C7120004BA83F /* VisibleGameObject.cpp */,
+				01E23C3E173C7120004BA83F /* Game.h */,
+				012D33F5173D2226007C82B0 /* GameBall.h */,
+				01E23C3C173C7120004BA83F /* GameObjectManager.h */,
+				01846C8D1749614A00716228 /* IAudioProvider.h */,
+				01E23C33173C7120004BA83F /* MainMenu.h */,
+				01E23C31173C7120004BA83F /* PlayerPaddle.h */,
+				01846C92174967E700716228 /* ServiceLocator.h */,
+				01846C8E1749630300716228 /* SFMLSoundProvider.h */,
+				01E23C2F173C7120004BA83F /* SplashScreen.h */,
+				01E23C2D173C7120004BA83F /* VisibleGameObject.h */,
+				01E23C1C173C70B3004BA83F /* ResourcePath.hpp */,
+				01E23C1A173C70B3004BA83F /* ResourcePath.mm */,
+				01E23C1F173C70B3004BA83F /* Resources */,
+				01E23C18173C70B3004BA83F /* Supporting Files */,
+			);
+			path = "BitPaddle!";
+			sourceTree = "<group>";
+		};
+		01E23C18173C70B3004BA83F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				01E23C19173C70B3004BA83F /* BitPaddle!-Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		01E23C1F173C70B3004BA83F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		01E23C36173C7120004BA83F /* images */ = {
+			isa = PBXGroup;
+			children = (
+				01E23C4F173C8B8C004BA83F /* ball.png */,
+				01E23C37173C7120004BA83F /* BPicon.png */,
+				01E23C39173C7120004BA83F /* mainmenu.png */,
+				01E23C3A173C7120004BA83F /* paddle.png */,
+				01E23C3B173C7120004BA83F /* splashscreen.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		01E23C14173C70B3004BA83F /* BitPaddle! */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01E23C2A173C70B3004BA83F /* Build configuration list for PBXNativeTarget "BitPaddle!" */;
+			buildPhases = (
+				01E23C10173C70B3004BA83F /* Sources */,
+				01E23C11173C70B3004BA83F /* Frameworks */,
+				01E23C12173C70B3004BA83F /* Resources */,
+				01E23C13173C70B3004BA83F /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BitPaddle!";
+			productName = "BitPaddle!";
+			productReference = 01E23C15173C70B3004BA83F /* BitPaddle!.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		01E23C0C173C70B3004BA83F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Tim O'Brien";
+			};
+			buildConfigurationList = 01E23C0F173C70B3004BA83F /* Build configuration list for PBXProject "BitPaddle!" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 01E23C0B173C70B3004BA83F;
+			productRefGroup = 01E23C16173C70B3004BA83F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				01E23C14173C70B3004BA83F /* BitPaddle! */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		01E23C12173C70B3004BA83F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01E23C45173C7120004BA83F /* BPicon.png in Resources */,
+				01E23C47173C7120004BA83F /* mainmenu.png in Resources */,
+				01E23C48173C7120004BA83F /* paddle.png in Resources */,
+				01E23C49173C7120004BA83F /* splashscreen.png in Resources */,
+				01E23C50173C8B8C004BA83F /* ball.png in Resources */,
+				01846C9D1749701A00716228 /* Soundtrack.ogg in Resources */,
+				01846C9E1749701A00716228 /* kaboom.wav in Resources */,
+				01846C9F1749701A00716228 /* blip.wav in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		01E23C13173C70B3004BA83F /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# This shell script simply copies required sfml dylibs/frameworks into the application bundle frameworks folder.\n# If you're using static libraries (which is not recommended) you should remove this script from your project.\n\n# Are we building a project that uses framework or dylibs ?\ncase \"$SFML_BINARY_TYPE\" in\n    DYLIBS)\n        frameworks=\"false\"\n        ;;\n    *)\n        frameworks=\"true\"\n        ;;\nesac\n\n# Echoes to stderr\nerror () # $* message to display\n{\n    echo $* 1>&2\n    exit 2\n}\n\nassert () # $1 is a boolean, $2...N is an error message\n{\n    if [ $# -lt 2 ]\n    then\n        error \"Internal error in assert : not enough args\"\n    fi\n\n    if [ $1 -ne 0 ]\n    then\n        shift\n        error \"$*\"\n    fi\n}\n\nforce_remove () # $1 is a path\n{\n    test $# -eq 1\n    assert $? \"force_remove() requires one parameter\"\n    rm -fr \"$1\"\n    assert $? \"couldn't remove $1\"\n}\n\ncopy () # $1 is a source, $2 is a destination\n{\n    test $# -eq 2\n    assert $? \"copy() requires two parameters\"\n    ditto \"$1\" \"$2\"\n    assert $? \"couldn't copy $1 to $2\"\n}\n\nrequire () # $1 is a SFML module like 'system' or 'audio'\n{\n    dest=\"$BUILT_PRODUCTS_DIR/$PRODUCT_NAME.app/Contents/Frameworks\"\n    \n    if [ -z \"$1\" ]\n    then\n        error \"require() requires one parameter!\"\n    else\n        # clean potentially old stuff\n        force_remove \"$dest/libsfml-$1.2.dylib\"\n        force_remove \"$dest/libsfml-$1-d.2.dylib\"\n        force_remove \"$dest/sfml-$1.framework\"\n    \n        # copy SFML libraries\n        if [ \"$frameworks\" = \"true\" ]\n        then\n            copy \"/Library/Frameworks/sfml-$1.framework\" \"$dest/sfml-$1.framework\"\n        elif [ $CONFIGURATION = \"Debug\" ] && [ $SFML_LINK_DYLIBS_SUFFIX_DEBUG != \"\" ]\n        then\n            copy \"/usr/local/lib/libsfml-$1-d.2.dylib\" \"$dest/libsfml-$1-d.2.dylib\"\n        else\n            copy \"/usr/local/lib/libsfml-$1.2.dylib\" \"$dest/libsfml-$1.2.dylib\"\n        fi\n        \n        if [ \"$1\" = \"audio\" ]\n        then\n            # copy sndfile framework too\n            copy \"/Library/Frameworks/sndfile.framework\" \"$dest/sndfile.framework\"\n        fi\n\n        if [ \"$1\" = \"graphics\" ]\n        then\n            # copy freetype framework too\n            copy \"/Library/Frameworks/freetype.framework\" \"$dest/freetype.framework\"\n        fi\n    fi\n}\n\nif [ -n \"$SFML_SYSTEM\" ]\nthen\n    require \"system\"\nfi\n\nif [ -n \"$SFML_AUDIO\" ]\nthen\n    require \"audio\"\nfi\n\nif [ -n \"$SFML_NETWORK\" ]\nthen\n    require \"network\"\nfi\n\nif [ -n \"$SFML_WINDOW\" ]\nthen\n    require \"window\"\nfi\n\nif [ -n \"$SFML_GRAPHICS\" ]\nthen\n    require \"graphics\"\nfi\n\n                ";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		01E23C10173C70B3004BA83F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01E23C1B173C70B3004BA83F /* ResourcePath.mm in Sources */,
+				01E23C40173C7120004BA83F /* VisibleGameObject.cpp in Sources */,
+				01E23C41173C7120004BA83F /* SplashScreen.cpp in Sources */,
+				01E23C42173C7120004BA83F /* PlayerPaddle.cpp in Sources */,
+				01E23C43173C7120004BA83F /* MainMenu.cpp in Sources */,
+				01E23C44173C7120004BA83F /* main.cpp in Sources */,
+				01E23C4A173C7120004BA83F /* GameObjectManager.cpp in Sources */,
+				01E23C4B173C7120004BA83F /* Game.cpp in Sources */,
+				012D33F7173D2226007C82B0 /* GameBall.cpp in Sources */,
+				01846C90174964A300716228 /* SFMLSoundProvider.cpp in Sources */,
+				01846C93174967E700716228 /* ServiceLocator.cpp in Sources */,
+				01846C9617496DC900716228 /* SoundFileCache.cpp in Sources */,
+				01846C9917496EBB00716228 /* AIPaddle.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		01E23C28173C70B3004BA83F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					/Library/Frameworks/,
+					"$(inherited)",
+				);
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include/,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/lib/,
+					"$(inherited)",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"$(SFML_SYSTEM)",
+					"$(SFML_WINDOW)",
+					"$(SFML_GRAPHICS)",
+					"$(SFML_AUDIO)",
+					"$(SFML_NETWORK)",
+				);
+				SFML_AUDIO = "$(SFML_LINK_PREFIX)sfml-audio$(SFML_LINK_SUFFIX)";
+				SFML_BINARY_TYPE = FRAMEWORKS;
+				SFML_GRAPHICS = "$(SFML_LINK_PREFIX)sfml-graphics$(SFML_LINK_SUFFIX)";
+				SFML_LINK_DYLIBS_PREFIX = "-l";
+				SFML_LINK_DYLIBS_SUFFIX = "";
+				SFML_LINK_FRAMEWORKS_PREFIX = "-framework ";
+				SFML_LINK_FRAMEWORKS_SUFFIX = "";
+				SFML_LINK_PREFIX = "$(SFML_LINK_$(SFML_BINARY_TYPE)_PREFIX)";
+				SFML_LINK_SUFFIX = "$(SFML_LINK_$(SFML_BINARY_TYPE)_SUFFIX)";
+				SFML_NETWORK = "$(SFML_LINK_PREFIX)sfml-network$(SFML_LINK_SUFFIX)";
+				SFML_SYSTEM = "$(SFML_LINK_PREFIX)sfml-system$(SFML_LINK_SUFFIX)";
+				SFML_WINDOW = "$(SFML_LINK_PREFIX)sfml-window$(SFML_LINK_SUFFIX)";
+				SUPPORTED_PLATFORMS = macosx;
+			};
+			name = Debug;
+		};
+		01E23C29173C70B3004BA83F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					/Library/Frameworks/,
+					"$(inherited)",
+				);
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include/,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/lib/,
+					"$(inherited)",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"$(SFML_SYSTEM)",
+					"$(SFML_WINDOW)",
+					"$(SFML_GRAPHICS)",
+					"$(SFML_AUDIO)",
+					"$(SFML_NETWORK)",
+				);
+				SFML_AUDIO = "$(SFML_LINK_PREFIX)sfml-audio$(SFML_LINK_SUFFIX)";
+				SFML_BINARY_TYPE = FRAMEWORKS;
+				SFML_GRAPHICS = "$(SFML_LINK_PREFIX)sfml-graphics$(SFML_LINK_SUFFIX)";
+				SFML_LINK_DYLIBS_PREFIX = "-l";
+				SFML_LINK_DYLIBS_SUFFIX = "";
+				SFML_LINK_FRAMEWORKS_PREFIX = "-framework ";
+				SFML_LINK_FRAMEWORKS_SUFFIX = "";
+				SFML_LINK_PREFIX = "$(SFML_LINK_$(SFML_BINARY_TYPE)_PREFIX)";
+				SFML_LINK_SUFFIX = "$(SFML_LINK_$(SFML_BINARY_TYPE)_SUFFIX)";
+				SFML_NETWORK = "$(SFML_LINK_PREFIX)sfml-network$(SFML_LINK_SUFFIX)";
+				SFML_SYSTEM = "$(SFML_LINK_PREFIX)sfml-system$(SFML_LINK_SUFFIX)";
+				SFML_WINDOW = "$(SFML_LINK_PREFIX)sfml-window$(SFML_LINK_SUFFIX)";
+				SUPPORTED_PLATFORMS = macosx;
+			};
+			name = Release;
+		};
+		01E23C2B173C70B3004BA83F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "BitPaddle!/BitPaddle!-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		01E23C2C173C70B3004BA83F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "BitPaddle!/BitPaddle!-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		01E23C0F173C70B3004BA83F /* Build configuration list for PBXProject "BitPaddle!" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01E23C28173C70B3004BA83F /* Debug */,
+				01E23C29173C70B3004BA83F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01E23C2A173C70B3004BA83F /* Build configuration list for PBXNativeTarget "BitPaddle!" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01E23C2B173C70B3004BA83F /* Debug */,
+				01E23C2C173C70B3004BA83F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 01E23C0C173C70B3004BA83F /* Project object */;
+}
